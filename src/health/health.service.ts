@@ -1,6 +1,4 @@
-import { BaseService } from '../common/base.service'
-
-class HealthService implements BaseService {
+class HealthService {
     async execute(): Promise<{ healthCheck: boolean}>{
         return {
             healthCheck: true
